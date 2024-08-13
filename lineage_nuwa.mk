@@ -13,6 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 # Inherit common Pixel Experience configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
