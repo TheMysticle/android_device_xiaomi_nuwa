@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">31.0px</dimen>
+    <dimen name="status_bar_padding_top">24.0px</dimen>
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">4dp</dimen>
@@ -19,5 +19,5 @@
     <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
-    <dimen name="physical_power_button_center_screen_location_y">1040px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">1460px</dimen>
 </resources>
