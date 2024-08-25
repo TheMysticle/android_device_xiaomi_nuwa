@@ -15,5 +15,13 @@ TARGET_SCREEN_DENSITY := 530
 # OTA
 TARGET_OTA_ASSERT_DEVICE := nuwa
 
+# Kernel Modules
+device_second_stage_modules := \
+    fts_touch_spi.ko \
+    xiaomi_touch.ko
+
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop
