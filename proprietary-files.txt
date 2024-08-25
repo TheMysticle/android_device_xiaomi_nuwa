@@ -4,9 +4,6 @@
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
 odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
 
-# Sensors
-odm/lib64/libssccalapi@2.0.so
-
 # ADSP (Modules)
 odm/etc/audio/misound_karaoke_res.bin
 odm/etc/audio/misound_karaokemix_res.bin
@@ -993,14 +990,8 @@ odm/firmware/nuwa_wide_bu24618_ois.coeff
 odm/firmware/nuwa_wide_bu24618_ois.mem
 odm/firmware/nuwa_wide_bu24618_ois.prog
 
-# Sensors (CIT)
-odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
-odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
-odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
+# CIT Sensor (Config)
 odm/etc/cit_param_config.json
-odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
 # Display (Calibration)
 odm/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json
