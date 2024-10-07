@@ -1140,16 +1140,6 @@ vendor/etc/thermald-devices.conf
 odm/firmware/st_fts_m2.ftb
 odm/firmware/stm_fts_production_limits.csv
 
-# Touchscreen (TouchFeature)
-odm/bin/touch_raw
-odm/bin/touch_report
-odm/bin/toucheventcheck
-odm/bin/touchsensor
-odm/firmware/film_model.tflite
-odm/firmware/glove_model.tflite
-odm/firmware/water_check.tflite
-odm/lib64/libtensorflowlite_c.so
-
 # Vibrator (Effects)
 vendor/firmware/effect_0.bin
 vendor/firmware/effect_2.bin
