@@ -33,8 +33,7 @@ PRODUCT_SYSTEM_NAME := nuwa_global
 PRODUCT_SYSTEM_DEVICE := nuwa
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="nuwa_global-user 14 UKQ1.230804.001 V816.0.1.0.UMBINXM release-keys" \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Xiaomi/nuwa_global/nuwa:14/UKQ1.230804.001/V816.0.1.0.UMBINXM:user/release-keys
+    BuildDesc="nuwa_global-user 14 UKQ1.230804.001 V816.0.1.0.UMBINXM release-keys" \
+    DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
+    BuildFingerprint=Xiaomi/nuwa_global/nuwa:14/UKQ1.230804.001/V816.0.1.0.UMBINXM:user/release-keys
