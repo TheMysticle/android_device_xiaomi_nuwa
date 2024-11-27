@@ -14,9 +14,6 @@ $(call inherit-product, vendor/xiaomi/nuwa/nuwa-vendor.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Kernel Binary
-KERNEL_PREBUILT_DIR := device/xiaomi/nuwa-kernel
-
 # Overlays
 PRODUCT_PACKAGES += \
     NuwaFrameworks \
