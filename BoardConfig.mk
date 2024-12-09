@@ -17,9 +17,10 @@ TARGET_OTA_ASSERT_DEVICE := nuwa
 
 # Kernel Modules
 device_second_stage_modules := \
-    fts_touch_spi.ko \
-    xiaomi_touch.ko
+    xiaomi_touch.ko \
+    fts_touch_spi.ko
 
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES += $(addprefix $(KERNEL_PREBUILT_DIR)/vendor_dlkm/, $(device_second_stage_modules))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
 
