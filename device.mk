@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/nuwa/nuwa-vendor.mk)
 
+# Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 # DSP Volume Synchronizer
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
